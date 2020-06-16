@@ -80,7 +80,7 @@ public class Form1 extends javax.swing.JFrame {
           if (txtcorreo.getText().contains("@") && txtcorreo.getText().contains(".")){
               JOptionPane.showMessageDialog(null, "Correo Valido");
           }else{
-              JOptionPane.showMessageDialog(null, "Correo No Valido intente de nuevo");
+              JOptionPane.showMessageDialog(null, "Correo No Valido intente de nuevo..");
           }
          
     }//GEN-LAST:event_jButton1ActionPerformed
